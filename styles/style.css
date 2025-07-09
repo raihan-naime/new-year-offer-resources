@@ -184,3 +184,32 @@ header{
 .portfolio-section p{
     margin-right: 420px;
 }
+
+/* subscribe section styles */
+.subscribe-section{
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 80px 215px;
+    border-radius: 15px;
+}
+.subscribe-section h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
+.subscribe-section input{
+    margin-right: 0px;
+    padding: 25px 30px;
+    font-size: 18px;
+    border: none;
+    width: 50%;
+    border-radius: 50px 0px 0px 50px;
+}
+.subscribe-section button{
+    margin-left: 0px;
+    padding: 25px 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FF0000;
+    border-radius: 0px 50px 50px 0px;
+}
