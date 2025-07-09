@@ -245,6 +245,13 @@ footer {
     font-size: 24px;
 }
 
+.phone-number,
+.website-address {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .website-address,
 .website-copyright {
     display: flex;
