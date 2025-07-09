@@ -23,8 +23,11 @@
 .text-white{
     color: #FFFFFF;
 }
+.text-black{
+    color: rgba(7, 2, 17, 1);
+}
 .text-gray{
-    color: 070211;
+    color: rgba(7, 2, 17, 0.6);
     font-size: 20px;
 }
 .text-center{
@@ -144,4 +147,28 @@ header{
     border: 10px solid #FF0000;
     border-radius: 50%;
     padding: 10px;
+}
+
+
+/* holiday section styles */
+.holiday-section{
+    padding: 0 125px;
+}
+.holiday-section h1{
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0px;
+}
+.holiday-section h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+/* discount section */
+.discount-section{
+    display: flex;
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
