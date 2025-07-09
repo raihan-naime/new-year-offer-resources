@@ -25,6 +25,7 @@
 }
 .text-gray{
     color: 070211;
+    font-size: 20px;
 }
 .text-center{
     text-align: center;
@@ -110,7 +111,7 @@ header{
 
 /* party details section */
 .party-details-section{
-    background: linear-gradient(#FFD8D8, #FAF7F3);
+    background: linear-gradient(#FFD8D8, #FFFFFF);
 }
 .party-details-section div{
     padding: 100px 380px;
@@ -123,4 +124,24 @@ header{
     background-color: #FF0000;
     padding: 16px 32px;
     border-radius: 10px;
+}
+
+
+/* best offer section */
+.best-offer-section{
+    display: flex;
+    gap: 80px;
+}
+.best-offer-section h4{
+    font-size: 24px;
+    font-weight: 500;
+}
+.best-offer-section h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+.circle{
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    padding: 10px;
 }
