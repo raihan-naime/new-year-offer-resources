@@ -1,0 +1,67 @@
+
+
+/* google fonts */
+.font-merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* common sheared styles */
+.color-primary{
+    color: #FF0000;
+}
+.text-center{
+    text-align: center;
+}
+header, main{
+    margin: 50px 140px;
+}
+
+
+
+/* header section */
+header{
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+
+}
+
+/* banner styles */
+.banner-content{
+    color: lightgray;
+    text-align: center;
+    padding: 170px 340px;
+}
+
+.banner-sub-title{
+    font-size: 32px;
+}
+.banner-title{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+
+/* offer section styles */
+.offer-title{
+    font-size: 88px;
+    font-weight: 700;
+}
+.offer-description{
+    font-size: 24px;
+    font-weight: 500px;
+}
+.offer-sub-title{
+    font-size: 48px;
+    font-weight: 700;
+}
