@@ -1,51 +1,55 @@
-
-
 /* google fonts */
 .font-merriweather {
-  font-family: "Merriweather", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 .font-inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
 /* common sheared styles */
-.color-primary{
+.color-primary {
     color: #FF0000;
 }
-.text-white{
+
+.text-white {
     color: #FFFFFF;
 }
-.text-black{
+
+.text-black {
     color: rgba(7, 2, 17, 1);
 }
-.text-gray{
+
+.text-gray {
     color: rgba(7, 2, 17, 0.6);
     font-size: 20px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
 
-header, main{
+header,
+main {
     margin: 50px 140px;
 }
-main section{
+
+main section {
     margin-top: 120px;
 }
 
 
 
 /* header section */
-header{
+header {
     background-image: url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
     border-radius: 16px;
@@ -53,77 +57,87 @@ header{
 }
 
 /* banner styles */
-.banner-content{
+.banner-content {
     text-align: center;
     padding: 170px 340px;
 }
 
-.banner-sub-title{
+.banner-sub-title {
     font-size: 32px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 72px;
     font-weight: 900;
 }
 
 
 /* offer section styles */
-.offer-title{
+.offer-title {
     font-size: 88px;
     font-weight: 700;
 }
-.offer-description{
+
+.offer-description {
     font-size: 24px;
     font-weight: 500px;
 }
-.offer-sub-title{
+
+.offer-sub-title {
     font-size: 48px;
     font-weight: 700;
 }
 
 
 /* welcome section styles */
-.welcome-section{
+.welcome-section {
     background-image: url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     /* background-size: cover; */
     display: flex;
     gap: 80px;
-    padding:0 126px;
+    padding: 0 126px;
     align-items: center;
 }
-.welcome-section-title{
+
+.welcome-section-title {
     font-size: 64px;
     font-weight: 900;
     width: 65%;
     /* margin-right: 150px; */
     margin-bottom: 10px;
 }
-.welcome-section-description{
+
+.welcome-section-description {
     font-size: 18px;
     width: 90%;
 }
-.btn-join-now{
+
+.btn-join-now {
     background-color: transparent;
     border: none;
 }
-.btn-join-now a{
+
+.btn-join-now a {
     text-decoration: none;
 }
 
 
 /* party details section */
-.party-details-section{
+.party-details-section {
     background: linear-gradient(#FFD8D8, #FFFFFF);
 }
-.party-details-section div{
+
+.party-details-section div {
     padding: 100px 380px;
 }
-.party-details-section p{
+
+.party-details-section p {
     font-size: 32px;
     font-weight: 600;
 }
-.party-details-section button{
+
+.party-details-section button {
     background-color: #FF0000;
     padding: 16px 32px;
     border-radius: 10px;
@@ -131,19 +145,22 @@ header{
 
 
 /* best offer section */
-.best-offer-section{
+.best-offer-section {
     display: flex;
     gap: 80px;
 }
-.best-offer-section h4{
+
+.best-offer-section h4 {
     font-size: 24px;
     font-weight: 500;
 }
-.best-offer-section h3{
+
+.best-offer-section h3 {
     font-size: 48px;
     font-weight: 700;
 }
-.circle{
+
+.circle {
     border: 10px solid #FF0000;
     border-radius: 50%;
     padding: 10px;
@@ -151,22 +168,24 @@ header{
 
 
 /* holiday section styles */
-.holiday-section{
+.holiday-section {
     padding: 0 125px;
 }
-.holiday-section h1{
+
+.holiday-section h1 {
     font-size: 72px;
     font-weight: 900;
     margin: 0px;
 }
-.holiday-section h3{
+
+.holiday-section h3 {
     font-size: 24px;
     font-weight: 500;
 }
 
 
 /* discount section */
-.discount-section{
+.discount-section {
     display: flex;
     background-image: url('../images/Rectangle\ 2.png');
     background-repeat: no-repeat;
@@ -175,28 +194,31 @@ header{
 
 
 /* portfolio section */
-.image-container{
+.image-container {
     display: flex;
     gap: 25px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.portfolio-section p{
+
+.portfolio-section p {
     margin-right: 420px;
 }
 
 /* subscribe section styles */
-.subscribe-section{
+.subscribe-section {
     background-color: rgba(255, 0, 0, 0.05);
     padding: 80px 215px;
     border-radius: 15px;
 }
-.subscribe-section h1{
+
+.subscribe-section h1 {
     font-size: 48px;
     font-weight: 900;
     margin: 0px;
 }
-.subscribe-section input{
+
+.subscribe-section input {
     margin-right: 0px;
     padding: 25px 30px;
     font-size: 18px;
@@ -204,7 +226,8 @@ header{
     width: 50%;
     border-radius: 50px 0px 0px 50px;
 }
-.subscribe-section button{
+
+.subscribe-section button {
     margin-left: 0px;
     padding: 25px 30px;
     border: none;
@@ -212,4 +235,25 @@ header{
     font-weight: 600;
     background-color: #FF0000;
     border-radius: 0px 50px 50px 0px;
+}
+
+
+/* footer styles */
+footer {
+    background-color: black;
+    padding: 120px 140px;
+    font-size: 24px;
+}
+
+.website-address,
+.website-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer hr {
+    height: 1px;
+    background-color: gray;
+    border: none;
 }
