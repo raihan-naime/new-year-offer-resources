@@ -20,11 +20,22 @@
 .color-primary{
     color: #FF0000;
 }
+.text-white{
+    color: #FFFFFF;
+}
+.text-gray{
+    color: 070211;
+}
 .text-center{
     text-align: center;
 }
+
+
 header, main{
     margin: 50px 140px;
+}
+main section{
+    margin-top: 120px;
 }
 
 
@@ -33,12 +44,12 @@ header, main{
 header{
     background-image: url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
+    border-radius: 16px;
 
 }
 
 /* banner styles */
 .banner-content{
-    color: lightgray;
     text-align: center;
     padding: 170px 340px;
 }
@@ -64,4 +75,52 @@ header{
 .offer-sub-title{
     font-size: 48px;
     font-weight: 700;
+}
+
+
+/* welcome section styles */
+.welcome-section{
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    display: flex;
+    gap: 80px;
+    padding:0 126px;
+    align-items: center;
+}
+.welcome-section-title{
+    font-size: 64px;
+    font-weight: 900;
+    width: 65%;
+    /* margin-right: 150px; */
+    margin-bottom: 10px;
+}
+.welcome-section-description{
+    font-size: 18px;
+    width: 90%;
+}
+.btn-join-now{
+    background-color: transparent;
+    border: none;
+}
+.btn-join-now a{
+    text-decoration: none;
+}
+
+
+/* party details section */
+.party-details-section{
+    background: linear-gradient(#FFD8D8, #FAF7F3);
+}
+.party-details-section div{
+    padding: 100px 380px;
+}
+.party-details-section p{
+    font-size: 32px;
+    font-weight: 600;
+}
+.party-details-section button{
+    background-color: #FF0000;
+    padding: 16px 32px;
+    border-radius: 10px;
 }
