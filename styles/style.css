@@ -172,3 +172,15 @@ header{
     background-repeat: no-repeat;
     background-position: center bottom;
 }
+
+
+/* portfolio section */
+.image-container{
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.portfolio-section p{
+    margin-right: 420px;
+}
