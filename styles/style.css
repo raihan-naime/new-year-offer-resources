@@ -50,16 +50,21 @@ main section {
 
 /* header section */
 header {
-    background-image: url('../images/Banner\ Image.png');
+    background-image: url('../images/BannerImage.png');
     background-repeat: no-repeat;
     border-radius: 16px;
-
+    width: 1320px;
+    height: 600px;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* banner styles */
 .banner-content {
-    text-align: center;
-    padding: 170px 340px;
+    width: 50%;
 }
 
 .banner-sub-title {
